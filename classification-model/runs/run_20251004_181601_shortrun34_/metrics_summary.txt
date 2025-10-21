@@ -1,0 +1,19 @@
+=== Metrics Summary ===
+Macro F1: 0.03479557599105257
+Weighted F1: 0.13220866034178638
+Balanced Accuracy: 0.07692307692307693
+
+Per-class P / R / F1 / Support:
+blues: 0.0 0.0 0.0 2
+classical: 0.0 0.0 0.0 36
+electronic: 0.0 0.0 0.0 176
+experimental: 0.0 0.0 0.0 494
+folk: 0.0 0.0 0.0 76
+hip-hop: 0.0 0.0 0.0 80
+instrumental: 0.0 0.0 0.0 43
+international: 0.0 0.0 0.0 21
+jazz: 0.0 0.0 0.0 11
+pop: 0.0 0.0 0.0 59
+rock: 0.29227557411273486 1.0 0.4523424878836834 420
+soul-rnb: 0.0 0.0 0.0 1
+spoken: 0.0 0.0 0.0 18

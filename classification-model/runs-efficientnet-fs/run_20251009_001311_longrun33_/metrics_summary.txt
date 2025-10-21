@@ -1,0 +1,5 @@
+=== Metrics Summary ===
+Macro F1: 0.03090028204894914
+Weighted F1: 0.16235159067342483
+Balanced Accuracy: 0.0625
+Top-3 Accuracy: 0.768914672467972

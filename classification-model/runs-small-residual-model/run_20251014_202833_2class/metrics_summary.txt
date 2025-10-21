@@ -1,0 +1,16 @@
+=== Metrics Summary ===
+Macro F1: 0.49958626723674154
+Weighted F1: 0.5033645385923937
+Balanced Accuracy: 0.4996697777571507
+
+=== Train Metrics ===
+Train Accuracy: 0.7063
+Train Loss: 0.5087
+
+=== Validation Metrics ===
+Validation Accuracy: 0.8867
+Validation Loss: 0.2915
+
+Per-class P / R / F1 / Support:
+experimental: 0.5400651465798045 0.5528677094701103 0.5463914437221007 16494
+rock: 0.4592712075665371 0.44647184604419105 0.4527810907513824 14030

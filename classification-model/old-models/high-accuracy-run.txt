@@ -1,0 +1,36 @@
+Epoch 65/200
+1527/1527 ━━━━━━━━━━━━━━━━━━━━ 339s 222ms/step - accuracy: 0.7073 - auc: 0.8062 - loss: 0.5080 - precision: 0.7073 - recall: 0.7073 - top_3_acc: 1.0000 - val_accuracy: 0.8867 - val_auc: 0.9499 - val_loss: 0.2915 - val_precision: 0.8867 - val_recall: 0.8867 - val_top_3_acc: 1.0000 - learning_rate: 1.0000e-06
+954/954 ━━━━━━━━━━━━━━━━━━━━ 49s 52ms/step  
+
+=== Summary Metrics (sklearn) ===
+Macro F1: 0.4996
+Weighted F1: 0.5034
+Balanced Accuracy: 0.4997
+
+Per-class Precision / Recall / F1 / Support:
+experimental         - P: 0.5401  R: 0.5529  F1: 0.5464  Support: 16494
+rock                 - P: 0.4593  R: 0.4465  F1: 0.4528  Support: 14030
+
+Full classification report:
+
+              precision    recall  f1-score   support
+
+experimental       0.54      0.55      0.55     16494
+        rock       0.46      0.45      0.45     14030
+
+    accuracy                           0.50     30524
+   macro avg       0.50      0.50      0.50     30524
+weighted avg       0.50      0.50      0.50     30524
+
+
+Final Train Accuracy: 0.7063, Train Loss: 0.5087
+Final Val Accuracy:   0.8867, Val Loss: 0.2915
+
+=== Evaluating on Test Set ===
+954/954 ━━━━━━━━━━━━━━━━━━━━ 51s 53ms/step - accuracy: 0.8290 - auc: 0.9051 - loss: 0.4026 - precision: 0.8290 - recall: 0.8290 - top_3_acc: 1.0000  
+954/954 ━━━━━━━━━━━━━━━━━━━━ 50s 52ms/step  
+Test Loss: 0.3977
+Test Accuracy: 0.8297
+Test Macro F1: 0.4992
+Test Weighted F1: 0.5036
+Test Balanced Accuracy: 0.4996
